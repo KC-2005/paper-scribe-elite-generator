@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { QuestionPaper, Question } from '@/types/types';
 import { Download, Printer, RotateCcw } from 'lucide-react';
-import { toast } from '@/components/ui/sonner';
+import { toast } from "sonner";
 import { jsPDF } from 'jspdf';
 import html2canvas from 'html2canvas';
 

@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { PaperSettings, QuestionPaper } from '@/types/types';
 import { generateQuestions, createQuestionPaper } from '@/services/questionService';
@@ -6,7 +5,7 @@ import Header from '@/components/Header';
 import PaperConfigForm from '@/components/PaperConfigForm';
 import PaperPreview from '@/components/PaperPreview';
 import AIInfoBanner from '@/components/AIInfoBanner';
-import { toast } from '@/components/ui/sonner';
+import { toast } from "sonner";
 
 const Index: React.FC = () => {
   const [isLoading, setIsLoading] = useState(false);
